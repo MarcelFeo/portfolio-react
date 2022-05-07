@@ -26,6 +26,7 @@ export const GlobalStyle = createGlobalStyle`
   // REM -> 1rem = font-size
   body {
     background: #000;
+    color: #fff;
     -webkit-font-smoothing: antialiased;
   }
   body, input, textarea, button{
