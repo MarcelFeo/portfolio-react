@@ -43,4 +43,26 @@ export const GlobalStyle = createGlobalStyle`
     opacity: 0.6;
     cursor: not-allowed;
   }
+
+  body {
+    overflow: hidden;
+  }
+
+  section#conteudo{
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  iframe#frameEspecificacoes{
+    background: #AAA;
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+  }
+
+  iframe#frameEspecificacoes::-webkit-scrollbar { 
+    display: none;
+  }
 `;
