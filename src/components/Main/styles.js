@@ -44,7 +44,6 @@ export const Subtitle = styled.div`
 `;
 
 export const IconsContainer = styled.div`
-
 `;
 
 export const Image = styled.img`
