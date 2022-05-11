@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     height: 70vh;
 
     padding: 2rem;
@@ -28,16 +28,17 @@ export const MainContainer = styled.main`
 export const Title = styled.div`
     font-size: 6rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 811px) {
         font-size: 8rem;
     }
 `;
 
 export const Subtitle = styled.div`
     font-size: 1.5rem;
-    filter: brightness(95%);
+    margin-top: -1.5rem;
+    filter: brightness(70%);
 
-    @media (min-width: 768px) {
+    @media (min-width: 811px) {
         font-size: 3rem;
     }
 `;
@@ -53,7 +54,7 @@ export const Image = styled.img`
     margin-right: 0.5rem;
     margin-top: 3rem;
 
-    @media (min-width: 768px) {
+    @media (min-width: 811px) {
         width: 3.5rem;
         height: 3.5rem;
 
@@ -64,7 +65,7 @@ export const Image = styled.img`
 export const ImgContainer = styled.div`
     display: none;
 
-    @media (min-width: 768px) {
+    @media (min-width: 811px) {
         display: block;
     }
 `;
