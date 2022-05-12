@@ -9,13 +9,24 @@ export const Container = styled.div`
     
     margin-top: -5rem;
     padding: 2rem;
+
+    animation: slide-up .6s cubic-bezier(0.4, 0, 0.2, 1) 0ms backwards;
+
+    @keyframes slide-up {
+        0% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    };
 `;
 
 export const Text = styled.p`
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
-
+    
     @media (min-width: 811px) {
         margin-right: 35rem;
         margin-left: 35rem;
