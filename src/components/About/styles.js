@@ -43,8 +43,8 @@ export const IconsContainer = styled.div`
 `;
 
 const iconCSS = css`
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     fill: #171717;
     flex-shrink: 0;
 

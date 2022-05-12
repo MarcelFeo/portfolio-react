@@ -16,12 +16,14 @@ export default function About() {
       <Header />
 
       <Container>
-      <Text style={{ width: '40em' }}>
+      {/* <Text style={{ width: '40em' }}>
         <TypeAnimation
           cursor={true}
           sequence={[textAbout, 1000]}
         />
-      </Text>
+      </Text> */}
+
+        <Text>{textAbout}</Text>
 
         <IconsContainer>
           <SocialLink href="https://github.com/MarcelFeo" target="_blank" rel="noopener"><GithubLogo /></SocialLink>

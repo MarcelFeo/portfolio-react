@@ -1,7 +1,24 @@
-import React from 'react'
+import React from 'react';
+import Header from '../Header';
+
+import { Container, Form, Input, TextArea } from './styles';
 
 export default function Contact() {
   return (
-    <div>contact</div>
+    <>
+        <Header />
+
+        <Container>
+          <Form id="contactform" action="https://formsubmit.io/send/marcelfeo29@gmail.com" method="POST">
+            <Input name="name" type="text" id="name" placeholder="Name" />
+
+            <Input name="email" type="email" id="email" placeholder="Email" />
+
+            <TextArea name="comment" id="comment" rows="3" placeholder="Message" style={{resize: 'none'}}></TextArea>
+
+            <Input value="Submit" type="submit" />
+          </Form>
+        </Container>
+    </>
   )
 }
