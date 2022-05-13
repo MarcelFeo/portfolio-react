@@ -20,9 +20,9 @@ export default function Home() {
             <ListContainer>
                 <List>
                     <ListItem><LinkItem href="/">Home</LinkItem></ListItem>
-                    <ListItem><LinkItem href="/projects">Projects</LinkItem></ListItem>
-                    <ListItem><LinkItem href="/about">About</LinkItem></ListItem>
-                    <ListItem><LinkItem href="/contact">Contact</LinkItem></ListItem>
+                    <ListItem><LinkItem href="/projects">Projetos</LinkItem></ListItem>
+                    <ListItem><LinkItem href="/about">Sobre</LinkItem></ListItem>
+                    <ListItem><LinkItem href="/contact">Contato</LinkItem></ListItem>
                 </List>
             </ListContainer>
         </Container>
