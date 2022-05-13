@@ -18,7 +18,7 @@ export default function Contact() {
 
             <TextArea name="comment" id="comment" rows="3" placeholder="Message" style={{resize: 'none'}}></TextArea>
 
-            <input type="hidden" name="_next" value="http://localhost:3000/thankyou" />
+            {/* <input type="hidden" name="_next" value="http://localhost:3000/thankyou" /> */}
             <InputButton value="Submit" type="submit" />
           </Form>
         </Container>

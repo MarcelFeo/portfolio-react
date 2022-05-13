@@ -8,6 +8,7 @@ import Contact from '../components/Contact';
 import Thanks from '../components/Thanks';
 
 const Router = () => {
+
   return (
     <Routes>
       <Route path="/" element={<Home />} />
