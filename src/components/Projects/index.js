@@ -12,7 +12,23 @@ export default function Projects() {
       <Header />
 
       <Container>
-
+        <AwesomeSlider>
+          <ImgContainer>
+            <Image src="imsorry.png" alt="imsorry" />
+          </ImgContainer>
+          <ImgContainer>
+            <Image src="pokenext.png" alt="pokenext" />
+          </ImgContainer>
+          <ImgContainer>
+            <Image src="audiobook.png" alt="audiobook" />
+          </ImgContainer>
+          <ImgContainer>
+            <ImageApp src="playmusic.jpeg" alt="playmusic" />
+          </ImgContainer>
+          <ImgContainer>
+            <Image src="didyouknow.png" alt="didyouknow" />
+          </ImgContainer>
+        </AwesomeSlider>
       </Container>
 
       <div><Text>Para saber mais sobre os <span>meus projetos</span> acesse meu GitHub:</Text></div>
