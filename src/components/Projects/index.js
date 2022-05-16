@@ -11,6 +11,10 @@ export default function Projects() {
     <>
       <Header />
 
+      <div><Text>Para saber mais sobre os <span>meus projetos</span> acesse meu GitHub:</Text></div>
+
+      <GitHubContainer><SocialLink href="https://github.com/MarcelFeo" target="_blank" rel="noopener"><GithubLogo /></SocialLink></GitHubContainer>
+
       <Container>
         <AwesomeSlider>
           <ImgContainer>
@@ -30,10 +34,6 @@ export default function Projects() {
           </ImgContainer>
         </AwesomeSlider>
       </Container>
-
-      <div><Text>Para saber mais sobre os <span>meus projetos</span> acesse meu GitHub:</Text></div>
-
-      <GitHubContainer><SocialLink href="https://github.com/MarcelFeo" target="_blank" rel="noopener"><GithubLogo /></SocialLink></GitHubContainer>
     </>
   )
 }

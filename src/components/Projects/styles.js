@@ -45,7 +45,7 @@ export const ImageApp = styled.img`
 `;
 
 export const Text = styled.p`
-    margin-top: 5rem;
+    margin-top: -7rem;
     text-align: center;
     padding: 0.5rem;
 
@@ -66,8 +66,6 @@ const iconCSS = css`
     fill: #171717;
     flex-shrink: 0;
 
-    margin-right: 1rem;
-
     transition: all 0.5s;
 
     &:hover {
@@ -82,4 +80,5 @@ export const GithubLogo = styled(FaGithub)`${iconCSS}`;
 export const GitHubContainer = styled.div`
     display: flex;
     justify-content: center;
+    margin-bottom: 7rem;
 `;
