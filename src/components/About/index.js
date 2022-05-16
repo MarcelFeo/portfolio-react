@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 
-import TypeAnimation from 'react-type-animation';
+// import TypeAnimation from 'react-type-animation';
 
 import { Container, Text, IconsContainer, GithubLogo, WhatsappLogo, LinkedInLogo, SocialLink } from './styles';
 
