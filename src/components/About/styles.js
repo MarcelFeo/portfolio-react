@@ -25,7 +25,6 @@ export const Container = styled.div`
 export const Text = styled.p`
     font-size: 1rem;
     text-align: center;
-    text-transform: uppercase;
     
     @media (min-width: 811px) {
         margin-right: 35rem;
