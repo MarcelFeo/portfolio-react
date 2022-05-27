@@ -11,6 +11,17 @@ export const Container = styled.div`
         margin-top: -5rem;
         width: 55rem;
     }
+
+    animation: slide-up .6s cubic-bezier(0.4, 0, 0.2, 1) 0ms backwards;
+
+    @keyframes slide-up {
+        0% {
+            transform: translateY(100%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    };
 `;
 
 export const ImgContainer = styled.div`
