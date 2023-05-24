@@ -7,7 +7,7 @@ export default function Main() {
       <Container>
         <MainContainer>
           <Title>Marcel</Title>
-          <Subtitle>Front-End Developer</Subtitle>
+          <Subtitle>Software Developer</Subtitle>
           <IconsContainer>
             <Image src="html-5(1).png" alt="html" />
             <Image src="css-3.png" alt="css" />
