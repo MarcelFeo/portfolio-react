@@ -9,7 +9,7 @@ export default function About() {
   const data = new Date();
   const year = data.getFullYear();
 
-  const textAbout = `Meu nome é Marcel Fernando, tenho ${year - 2004} anos e atualmente sou autodidata. Recentemente, tenho me apaixonado cada vez mais pela área de Desenvolvimento Web então venho participando de muitos eventos e também frequentemente faço cursos novos em assuntos de programação Front-End e design UI/UX, a fim de manter-me atualizado sobre os mais recentes métodos e tecnologias disponíveis para realizar as minhas aplicações e otimizar os sistemas e trabalhos que faço parte.`
+  const textAbout = `Meu nome é Marcel Fernando, tenho ${year - 2004} anos e atualmente sou estudante de Ciência da Computação na UFU. Recentemente, tenho me apaixonado cada vez mais pela área de Desenvolvimento Web então venho participando de muitos eventos e também frequentemente faço cursos novos em assuntos de programação Front-End e design UI/UX, a fim de manter-me atualizado sobre os mais recentes métodos e tecnologias disponíveis para realizar as minhas aplicações e otimizar os sistemas e trabalhos que faço parte.`
 
    return (
     <>
